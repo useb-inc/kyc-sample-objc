@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0B06EE29C05539004F2717 /* KycParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B06ED29C05539004F2717 /* KycParams.m */; };
+		1A0B06F129C07200004F2717 /* KycResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B06F029C07200004F2717 /* KycResponse.m */; };
+		1A0B06F429C0849A004F2717 /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B06F329C0849A004F2717 /* ReportViewController.m */; };
+		1AD6378E29C002A7002F6DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6378D29C002A7002F6DE1 /* AppDelegate.m */; };
+		1AD6379129C002A7002F6DE1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6379029C002A7002F6DE1 /* SceneDelegate.m */; };
+		1AD6379429C002A7002F6DE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6379329C002A7002F6DE1 /* ViewController.m */; };
+		1AD6379729C002A7002F6DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6379529C002A7002F6DE1 /* Main.storyboard */; };
+		1AD6379929C002A9002F6DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6379829C002A9002F6DE1 /* Assets.xcassets */; };
+		1AD6379C29C002A9002F6DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6379A29C002A9002F6DE1 /* LaunchScreen.storyboard */; };
+		1AD6379F29C002A9002F6DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6379E29C002A9002F6DE1 /* main.m */; };
+		1AD637A729C00A50002F6DE1 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637A629C00A50002F6DE1 /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0B06EC29C05539004F2717 /* KycParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KycParams.h; sourceTree = "<group>"; };
+		1A0B06ED29C05539004F2717 /* KycParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KycParams.m; sourceTree = "<group>"; };
+		1A0B06EF29C0711E004F2717 /* KycResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KycResponse.h; sourceTree = "<group>"; };
+		1A0B06F029C07200004F2717 /* KycResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KycResponse.m; sourceTree = "<group>"; };
+		1A0B06F229C0849A004F2717 /* ReportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		1A0B06F329C0849A004F2717 /* ReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		1AD6378929C002A7002F6DE1 /* eKYC sample Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eKYC sample Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD6378C29C002A7002F6DE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AD6378D29C002A7002F6DE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AD6378F29C002A7002F6DE1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1AD6379029C002A7002F6DE1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1AD6379229C002A7002F6DE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AD6379329C002A7002F6DE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AD6379629C002A7002F6DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AD6379829C002A9002F6DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AD6379B29C002A9002F6DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AD6379D29C002A9002F6DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD6379E29C002A9002F6DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AD637A529C00A50002F6DE1 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		1AD637A629C00A50002F6DE1 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD6378629C002A7002F6DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0B071A29C1BF05004F2717 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AD6379529C002A7002F6DE1 /* Main.storyboard */,
+				1AD6379829C002A9002F6DE1 /* Assets.xcassets */,
+				1AD6379A29C002A9002F6DE1 /* LaunchScreen.storyboard */,
+				1AD6379D29C002A9002F6DE1 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1A0B071B29C1BF1D004F2717 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1AD6378C29C002A7002F6DE1 /* AppDelegate.h */,
+				1AD6378D29C002A7002F6DE1 /* AppDelegate.m */,
+				1AD6378F29C002A7002F6DE1 /* SceneDelegate.h */,
+				1AD6379029C002A7002F6DE1 /* SceneDelegate.m */,
+				1AD6379229C002A7002F6DE1 /* ViewController.h */,
+				1AD6379329C002A7002F6DE1 /* ViewController.m */,
+				1AD637A529C00A50002F6DE1 /* WebViewController.h */,
+				1AD637A629C00A50002F6DE1 /* WebViewController.m */,
+				1AD6379E29C002A9002F6DE1 /* main.m */,
+				1A0B06EC29C05539004F2717 /* KycParams.h */,
+				1A0B06ED29C05539004F2717 /* KycParams.m */,
+				1A0B06EF29C0711E004F2717 /* KycResponse.h */,
+				1A0B06F029C07200004F2717 /* KycResponse.m */,
+				1A0B06F229C0849A004F2717 /* ReportViewController.h */,
+				1A0B06F329C0849A004F2717 /* ReportViewController.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		1AD6378029C002A7002F6DE1 = {
+			isa = PBXGroup;
+			children = (
+				1AD6378B29C002A7002F6DE1 /* EkycSampleObjC */,
+				1AD6378A29C002A7002F6DE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD6378A29C002A7002F6DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD6378929C002A7002F6DE1 /* eKYC sample Objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD6378B29C002A7002F6DE1 /* EkycSampleObjC */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B071B29C1BF1D004F2717 /* Sources */,
+				1A0B071A29C1BF05004F2717 /* Resources */,
+			);
+			path = EkycSampleObjC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD6378829C002A7002F6DE1 /* eKYC sample Objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD637A229C002A9002F6DE1 /* Build configuration list for PBXNativeTarget "eKYC sample Objc" */;
+			buildPhases = (
+				1AD6378529C002A7002F6DE1 /* Sources */,
+				1AD6378629C002A7002F6DE1 /* Frameworks */,
+				1AD6378729C002A7002F6DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eKYC sample Objc";
+			productName = EkycSampleObjC;
+			productReference = 1AD6378929C002A7002F6DE1 /* eKYC sample Objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD6378129C002A7002F6DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					1AD6378829C002A7002F6DE1 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 1AD6378429C002A7002F6DE1 /* Build configuration list for PBXProject "eKYC sample Objc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AD6378029C002A7002F6DE1;
+			productRefGroup = 1AD6378A29C002A7002F6DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD6378829C002A7002F6DE1 /* eKYC sample Objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD6378729C002A7002F6DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD6379C29C002A9002F6DE1 /* LaunchScreen.storyboard in Resources */,
+				1AD6379929C002A9002F6DE1 /* Assets.xcassets in Resources */,
+				1AD6379729C002A7002F6DE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD6378529C002A7002F6DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD6379429C002A7002F6DE1 /* ViewController.m in Sources */,
+				1A0B06F129C07200004F2717 /* KycResponse.m in Sources */,
+				1A0B06EE29C05539004F2717 /* KycParams.m in Sources */,
+				1AD637A729C00A50002F6DE1 /* WebViewController.m in Sources */,
+				1A0B06F429C0849A004F2717 /* ReportViewController.m in Sources */,
+				1AD6378E29C002A7002F6DE1 /* AppDelegate.m in Sources */,
+				1AD6379F29C002A9002F6DE1 /* main.m in Sources */,
+				1AD6379129C002A7002F6DE1 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AD6379529C002A7002F6DE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD6379629C002A7002F6DE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AD6379A29C002A9002F6DE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD6379B29C002A9002F6DE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AD637A029C002A9002F6DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AD637A129C002A9002F6DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AD637A329C002A9002F6DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TF29GXQV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EkycSampleObjC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "eKYC sample ObjC";
+				INFOPLIST_KEY_NSCameraUsageDescription = "신분증 및 본인 확인을 위해 카메라를 사용합니다.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "신분증 및 본인 확인을 위해 마이크를 사용합니다.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.useb.kyc.objc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AD637A429C002A9002F6DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TF29GXQV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EkycSampleObjC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "eKYC sample ObjC";
+				INFOPLIST_KEY_NSCameraUsageDescription = "신분증 및 본인 확인을 위해 카메라를 사용합니다.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "신분증 및 본인 확인을 위해 마이크를 사용합니다.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.useb.kyc.objc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AD6378429C002A7002F6DE1 /* Build configuration list for PBXProject "eKYC sample Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD637A029C002A9002F6DE1 /* Debug */,
+				1AD637A129C002A9002F6DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD637A229C002A9002F6DE1 /* Build configuration list for PBXNativeTarget "eKYC sample Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD637A329C002A9002F6DE1 /* Debug */,
+				1AD637A429C002A9002F6DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD6378129C002A7002F6DE1 /* Project object */;
+}
