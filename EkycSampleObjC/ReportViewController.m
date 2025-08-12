@@ -82,8 +82,8 @@
         Face_check *face_check = detail.face_check;
         
         if (face_check != nil) {
-            self.lblSimilarity.text = face_check.is_same_person ? @"높음" : @"낮음";
-            self.lblSimilarity.textColor = face_check.is_same_person ? self.alcheraColor : UIColor.redColor;
+            self.lblSimilarity.text = face_check.is_same_person != 0 ? @"높음" : @"낮음";
+            self.lblSimilarity.textColor = face_check.is_same_person != 0 ? self.alcheraColor : UIColor.redColor;
             self.imgIdCrop.image = [UIImage imageWithData:detail.id_card.id_crop_image];
             self.imgSelfie.image = [UIImage imageWithData:face_check.selfie_image];
         } else {
@@ -96,8 +96,8 @@
         [self.liveness setHidden:NO];
         Face_check *face_check = detail.face_check;
         if (face_check != nil) {
-            self.lblLive.text = face_check.is_live ? @"성공" : @"실패";
-            self.lblLive.textColor = face_check.is_live ? self.alcheraColor : UIColor.redColor;
+            self.lblLive.text = face_check.is_live != 0 ? @"성공" : @"실패";
+            self.lblLive.textColor = face_check.is_live != 0 ? self.alcheraColor : UIColor.redColor;
         } else {
             self.lblLive.text = self.NOTAVAILABLE;
         }

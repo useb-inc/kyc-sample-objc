@@ -31,8 +31,8 @@
 @end
 
 @interface Face_check: NSObject
-@property (nonatomic, assign) BOOL is_same_person;
-@property (nonatomic, assign) BOOL is_live;
+@property (nonatomic, assign) int is_same_person;
+@property (nonatomic, assign) int is_live;
 @property (nonatomic, strong) NSData *selfie_image;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
